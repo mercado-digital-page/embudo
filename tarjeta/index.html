@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!---Meta--->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---Page Icon---> 
+  <link rel="shortcut icon" href="favicon.svg">
+  <!--CSS Documents-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!---Scripts--->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <style>
+    * {
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #F2EFE7;
+      color: #333;
+    }
+    .primary-bg {
+      background-color: #006A71;
+    }
+    .primary-text {
+      color: #006A71;
+    }
+    .secondary-bg {
+      background-color: #F2EFE7;
+    }
+    .secondary-text {
+      color: #F2EFE7;
+    }
+    .btn-whatsapp {
+      background-color: #25D366;
+      color: white;
+    }
+    .card-hover {
+      transition: all 0.3s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .hero-gradient {
+      background: linear-gradient(135deg, #006A71 0%, #00838a 100%);
+    }
+    .feature-icon {
+      width: 80px;
+      height: 80px;
+      background-color: rgba(0, 106, 113, 0.1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+    }
+    .floating-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+  </style>
+  <title>¡Tu Tarjeta Digital Profesional GRATIS! | Mercado Digital</title>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero-gradient text-white py-16 px-4">
+    <div class="container mx-auto max-w-6xl">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 mb-10 md:mb-0">
+          <h1 class="text-4xl md:text-5xl font-bold mb-4 leading-tight">Transforma tu presencia digital <span class="secondary-text">sin costo</span></h1>
+          <p class="text-xl mb-8">Obtén una tarjeta digital profesional que muestre tus servicios, contacto y estilo único.</p>
+          
+          <div class="flex flex-col sm:flex-row gap-4 mb-8">
+            <a href="https://wa.me/51908788502?text=¡Hola!%20Quiero%20mi%20tarjeta%20digital%20gratis" class="btn-whatsapp font-bold py-3 px-8 rounded-full text-lg hover:bg-green-600 transition duration-300 flex items-center justify-center">
+              <i class="fab fa-whatsapp mr-2"></i> Solicitar ahora
+            </a>
+            <a href="#como-funciona" class="secondary-bg primary-text font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-200 transition duration-300 flex items-center justify-center">
+              <i class="fas fa-info-circle mr-2"></i> Cómo funciona
+            </a>
+          </div>
+          
+          <div class="flex items-center space-x-4">
+            <div class="flex -space-x-2">
+              <div class="w-10 h-10 rounded-full bg-white primary-text flex items-center justify-center font-bold border-2 border-white">A</div>
+              <div class="w-10 h-10 rounded-full bg-white primary-text flex items-center justify-center font-bold border-2 border-white">L</div>
+              <div class="w-10 h-10 rounded-full bg-white primary-text flex items-center justify-center font-bold border-2 border-white">M</div>
+            </div>
+            <p>+50 negocios ya tienen la suya</p>
+          </div>
+        </div>
+        
+        <div class="md:w-1/2 flex justify-center">
+          <div class="relative">
+            <div class="absolute -inset-4 bg-white opacity-20 rounded-2xl rotate-6"></div>
+            <div class="relative bg-white rounded-xl shadow-2xl overflow-hidden" style="width: 300px; height: 180px;">
+              <iframe src="https://mercado-digital-page.github.io/espacio/j&l/tarjeta/" class="w-full h-full border-none"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="py-16 px-4">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="text-3xl font-bold text-center primary-text mb-12">Tu tarjeta digital, tu mejor aliada</h2>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-md card-hover text-center">
+          <div class="feature-icon">
+            <i class="fas fa-mobile-alt primary-text text-3xl"></i>
+          </div>
+          <h3 class="font-bold text-xl mb-3">Accesible 24/7</h3>
+          <p class="text-gray-600">Tus clientes podrán acceder a tu información de contacto y servicios en cualquier momento, desde cualquier dispositivo.</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-2xl shadow-md card-hover text-center">
+          <div class="feature-icon">
+            <i class="fas fa-palette primary-text text-3xl"></i>
+          </div>
+          <h3 class="font-bold text-xl mb-3">Diseño personalizado</h3>
+          <p class="text-gray-600">Adaptamos los colores y estilo para que reflejen la identidad de tu negocio.</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-2xl shadow-md card-hover text-center">
+          <div class="feature-icon">
+            <i class="fas fa-share-alt primary-text text-3xl"></i>
+          </div>
+          <h3 class="font-bold text-xl mb-3">Fácil de compartir</h3>
+          <p class="text-gray-600">Un simple link es todo lo que necesitas para compartir tu tarjeta profesional con clientes potenciales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="como-funciona" class="secondary-bg py-16 px-4">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="text-3xl font-bold text-center primary-text mb-12">Así de simple es obtenerla</h2>
+      
+      <div class="flex flex-col md:flex-row items-center gap-8 mb-12">
+        <div class="md:w-1/2">
+          <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Persona usando celular" class="w-full h-auto">
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <div class="flex items-start mb-6">
+            <div class="primary-bg text-white rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">1</div>
+            <div>
+              <h3 class="font-bold text-xl mb-2">Contáctanos por WhatsApp</h3>
+              <p class="text-gray-700">Envíanos un mensaje con los datos de tu negocio y los servicios que ofreces.</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start mb-6">
+            <div class="primary-bg text-white rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">2</div>
+            <div>
+              <h3 class="font-bold text-xl mb-2">Personalizamos tu tarjeta</h3>
+              <p class="text-gray-700">Diseñamos tu tarjeta digital con los colores y estilo de tu marca.</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start">
+            <div class="primary-bg text-white rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">3</div>
+            <div>
+              <h3 class="font-bold text-xl mb-2">Recibe tu link personalizado</h3>
+              <p class="text-gray-700">En menos de 24 horas tendrás tu tarjeta digital lista para compartir.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center">
+        <a href="https://wa.me/51908788502?text=¡Hola!%20Quiero%20mi%20tarjeta%20digital%20gratis" class="inline-block primary-bg text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-teal-800 transition duration-300">
+          <i class="fab fa-whatsapp mr-2"></i> Solicitar mi tarjeta
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Showcase Section -->
+  <section class="py-16 px-4">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="text-3xl font-bold text-center primary-text mb-12">Una tarjeta que habla por tu negocio</h2>
+      
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h3 class="text-2xl font-bold mb-4">Todo lo que incluye:</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <i class="fas fa-check-circle primary-text text-xl mr-3 mt-1"></i>
+              <span>Diseño limpio y profesional</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle primary-text text-xl mr-3 mt-1"></i>
+              <span>Tu logo o imagen principal</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle primary-text text-xl mr-3 mt-1"></i>
+              <span>Lista de servicios que ofreces</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle primary-text text-xl mr-3 mt-1"></i>
+              <span>Todos tus datos de contacto</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle primary-text text-xl mr-3 mt-1"></i>
+              <span>Colores que representan tu marca</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle primary-text text-xl mr-3 mt-1"></i>
+              <span>Acceso inmediato desde cualquier dispositivo</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="flex justify-center">
+          <div class="relative">
+            <div class="absolute -inset-4 bg-gray-100 rounded-2xl -rotate-6"></div>
+            <div class="relative bg-white rounded-xl shadow-xl overflow-hidden" style="width: 300px; height: 180px;">
+              <iframe src="https://mercado-digital-page.github.io/espacio/j&l/tarjeta/" class="w-full h-full border-none"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="hero-gradient text-white py-16 px-4">
+    <div class="container mx-auto max-w-4xl text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">¿Listo para dar el salto digital?</h2>
+      <p class="text-xl mb-8">Obtén tu tarjeta digital profesional hoy mismo, sin costos ni complicaciones.</p>
+      
+      <a href="https://wa.me/51908788502?text=¡Hola!%20Quiero%20mi%20tarjeta%20digital%20gratis" class="inline-block secondary-bg primary-text font-bold py-4 px-10 rounded-full text-lg hover:bg-gray-200 transition duration-300">
+        <i class="fab fa-whatsapp mr-2"></i> Solicitar ahora
+      </a>
+    </div>
+  </section>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/51908788502?text=¡Hola!%20Quiero%20mi%20tarjeta%20digital%20gratis" class="floating-btn btn-whatsapp font-bold py-3 px-6 rounded-full text-lg hover:bg-green-600 transition duration-300 flex items-center shadow-lg">
+    <i class="fab fa-whatsapp mr-2 text-2xl"></i> ¿Preguntas?
+  </a>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8 px-4">
+    <div class="container mx-auto max-w-4xl">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-6 md:mb-0">
+          <h3 class="text-2xl font-bold mb-2">Mercado Digital</h3>
+          <p class="text-gray-400">Soluciones digitales para tu negocio</p>
+        </div>
+        
+        <div class="flex space-x-6">
+          <a href="https://www.facebook.com/profile.php?id=61555397642226" class="text-white hover:text-gray-300 text-xl">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://wa.me/51908788502" class="text-white hover:text-gray-300 text-xl">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
+        <p>© 2023 Mercado Digital. Todos los derechos reservados.</p>
+        <p class="mt-2">+51 908 788 502</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
